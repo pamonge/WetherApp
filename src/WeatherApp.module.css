@@ -1,0 +1,52 @@
+.container {
+    max-width: 70%;
+    max-height: 600px;
+    border: 1px solid white;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    max-width: 60%;
+}
+
+button {
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 1s all ease;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: gray;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+@media (max-width: 650px) {
+    .container {
+        max-width: 100%;
+    }
+}
